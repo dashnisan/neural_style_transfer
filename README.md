@@ -1,3 +1,5 @@
+# NEURAL STYLE TRANSFER: DIGITAL ART
+
 This code uses a pretrained VGG19 neural network for transfer the style of an image (S) to a "content" image C. The generated image G preserves the content of C while applying the style of S. How this is done depends on the selection of layers for content and style, the number of epochs and the learning rate. There is a lot of room for experimenting. This proces is computation intensive and is recommended to use an accelerator device. In this case I use a standard consumer GPU with CUDA. Some rexperiment results you can see next:
 
 ### Van Gogh with sandstone style
